@@ -11,14 +11,18 @@ Both systems were fully updated and configured with NAT networking. Snapshots we
 
 This environment serves as the foundation for log collection, detection engineering, and SOC-style monitoring tasks.
 ### Screenshots
+
+### Virtual Machines Deployed in VMware Workstation
 ![](screenshots/Pasted_image_20260110214855.png)
 
----
-
+### Ubuntu Server Installed and Accessible
 ![](screenshots/Pasted_image_20260110214852.png)
+
+### Windows 10 Enterprise Fully Updated
 ![](screenshots/Pasted_image_20260110214900.png)
 
---- 
-
+### Ubuntu Clean Install Snapshot Created
 ![](screenshots/Pasted_image_20260110214857.png)
+
+### Windows Clean Install Snapshot Created
 ![](screenshots/Pasted_image_20260110214907.png)
