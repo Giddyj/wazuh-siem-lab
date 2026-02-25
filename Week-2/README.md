@@ -18,10 +18,13 @@ After installation, the Wazuh dashboard was accessed via browser, confirming suc
 
 ### Wazuh dashboard login page
 > Web interface accessible after installation
+
 ![](Screenshots/Pasted_image_20260110224428.png)
 
 ### Wazuh dashboard home page after installation
 > Confirms manager, indexer, and dashboard are running
+
+
 ![](Screenshots/Pasted_image_20260110224521.png)
 ![](screenshots/Pasted_image_20260110224837.png)
 
