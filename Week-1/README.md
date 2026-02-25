@@ -10,3 +10,14 @@ Two virtual machines were deployed using VMware Workstation:
 Both systems were fully updated and configured with NAT networking. Snapshots were created after clean installation and post-update states to allow safe rollback during future security testing.
 
 This environment serves as the foundation for log collection, detection engineering, and SOC-style monitoring tasks.
+### Screenshots
+![[screenshots/Pasted image 20260110214855.png]]
+
+---
+
+![[screenshots/Pasted image 20260110214852.png]]
+![[screenshots/Pasted image 20260110214900.png]]
+
+--- 
+
+![[screenshots/Pasted image 20260110214857.png]]![[Pasted image 20260110214907.png]]
