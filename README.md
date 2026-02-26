@@ -25,13 +25,9 @@ Hands-on SIEM lab demonstrating deployment, agent onboarding, log ingestion, and
 Secure virtual lab deployment with Windows and Ubuntu VMs.  
 🔗 [View Week 1 Documentation](Week-1/README.md)
 
----
-
 ### Week 2 — Wazuh SIEM Installation  
 All-in-one Wazuh deployment (Manager, Indexer, Dashboard).  
 🔗 [View Week 2 Documentation](Week-2/README.md)
-
----
 
 ### Week 3 — Agent Onboarding & Log Collection  
 Endpoint registration, log ingestion verification, and alert visualization.  
