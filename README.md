@@ -3,6 +3,9 @@
 This repository documents a hands-on SIEM lab built using Wazuh.  
 The goal of this project is to demonstrate practical SOC skills including SIEM deployment, agent onboarding, log ingestion, detection, and visualization.
 
+##Scenario:
+This lab simulates a small enterprise environment where a SOC team monitors Windows and Linux endpoints using Wazuh SIEM. The objective is to detect unauthorized access, suspicious PowerShell activity, and file integrity violations.
+
 ## Lab Environment
 - Ubuntu Server (Wazuh Manager, Indexer, Dashboard)
 - Windows 10 Endpoint
