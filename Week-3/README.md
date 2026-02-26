@@ -7,12 +7,16 @@ Log ingestion was confirmed by observing alerts written to the alerts.json file 
 ## Screenshots
 ### Wazuh Manager – Registered Agents
 ![](screenshots/Pasted_image_20260226012603.png)
+
 ### Windows Endpoint Logs Ingested into Wazuh
 ![](screenshots/Pasted_image_20260226012717.png)
+
 ### Windows Agent Logs Ingested into Wazuh
 ![](screenshots/Pasted_image_20260226012908.png)
+
 ### Ubuntu Server Logs Ingested into Wazuh
 ![](screenshots/Pasted_image_20260226012939.png)
+
 ## Alert Severity Distribution Visualization
 ![](screenshots/Pasted_image_20260226013612.png)
 
