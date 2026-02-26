@@ -12,3 +12,27 @@ The goal of this project is to demonstrate practical SOC skills including SIEM d
 - Week-1/
 - Week-2/
 - Week-3/
+
+# Wazuh SIEM Lab
+
+Hands-on SIEM lab demonstrating deployment, agent onboarding, log ingestion, and basic detection engineering using Wazuh.
+
+---
+
+## 📂 Lab Progress
+
+### Week 1 — Environment Setup  
+Secure virtual lab deployment with Windows and Ubuntu VMs.  
+🔗 [View Week 1 Documentation](Week-1/README.md)
+
+---
+
+### Week 2 — Wazuh SIEM Installation  
+All-in-one Wazuh deployment (Manager, Indexer, Dashboard).  
+🔗 [View Week 2 Documentation](Week-2/README.md)
+
+---
+
+### Week 3 — Agent Onboarding & Log Collection  
+Endpoint registration, log ingestion verification, and alert visualization.  
+🔗 [View Week 3 Documentation](Week-3/README.md)
