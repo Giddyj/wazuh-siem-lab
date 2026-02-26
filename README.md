@@ -8,17 +8,6 @@ The goal of this project is to demonstrate practical SOC skills including SIEM d
 - Windows 10 Endpoint
 - Ubuntu Linux Endpoint
 
-## Structure
-- Week-1/
-- Week-2/
-- Week-3/
-
-# Wazuh SIEM Lab
-
-Hands-on SIEM lab demonstrating deployment, agent onboarding, log ingestion, and basic detection engineering using Wazuh.
-
----
-
 ## 📂 Lab Progress
 
 ### Week 1 — Environment Setup  
