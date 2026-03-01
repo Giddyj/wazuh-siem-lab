@@ -65,7 +65,7 @@ This validated correct indexing behavior for keyword fields.
 ![](screenshots/Pasted_image_20260301150146.png)
 ### Wildcard Path Query Demonstration
 ![](screenshots/Pasted_image_20260301150217.png)
----
+
 
 ## Operational Skills Demonstrated
 
