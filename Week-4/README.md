@@ -45,11 +45,11 @@ Lifecycle validation performed through:
 
 Query used:
 
-`syscheck.event: added OR syscheck.event: modified OR syscheck.event: deleted
+`syscheck.event: added OR syscheck.event: modified OR syscheck.event: deleted`
 
 Wildcard matching was required for partial path filtering:
 
-`syscheck.path: *desktop*
+`syscheck.path: *desktop*`
 
 This validated correct indexing behavior for keyword fields.
 
