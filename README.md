@@ -26,4 +26,5 @@ Endpoint registration, log ingestion verification, and alert visualization.
 🔗 [View Week 3 Documentation](Week-3/README.md)
 
 ### WEEK 4 — Baseline Monitoring & FIM Validation
+Baseline behavior analysis, Windows security event investigation, and File Integrity Monitoring (FIM) testing.
 🔗 [View Week 4 Documentation](Week-4/README.md)
