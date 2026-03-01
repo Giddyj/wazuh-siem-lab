@@ -1,4 +1,4 @@
-<img width="1928" height="1083" alt="image" src="https://github.com/user-attachments/assets/d87e78d6-effd-4c8a-a1aa-f1d6305437bc" /># **WEEK 4 — Baseline Monitoring & FIM Validation**
+# **WEEK 4 — Baseline Monitoring & FIM Validation**
 
 ## Short Summary
 
@@ -66,7 +66,7 @@ This validated correct indexing behavior for keyword fields.
 ### File Creation Event
 ![](screenshots/Pasted_image_20260301150128.png)
 ### File Modification Event
-![](screenshots/Pasted_image_2020260301152957.png)
+![](screenshots/Pasted_image_20260301152957.png)
 ### File Deletion Event
 ![](screenshots/Pasted_image_20260301150146.png)
 ### Wildcard Path Query Demonstration
