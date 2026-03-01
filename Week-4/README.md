@@ -14,13 +14,15 @@ This phase validates both log ingestion integrity and operational querying profi
 
 ## Authentication Event Validation
 
+During baseline testing, authentication events were grouped correctly under `rule.groups: authentication`. However, filtering by `event.code` required identifying the correct mapped field (`win.system.eventID`) due to index schema differences.
+
 Successful Logons (Event ID 4624) were confirmed using:
 
-`data.win.system.eventID: 4624
+`data.win.system.eventID: 4624`
 
 Failed Logons (Event ID 4625) were confirmed using:
 
-`data.win.system.eventID: 4625
+`data.win.system.eventID: 4625`
 
 Repeated failed login attempts produced visible timestamp clustering, demonstrating detectable behavioral patterns.
 
