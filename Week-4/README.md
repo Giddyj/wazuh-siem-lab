@@ -1,4 +1,4 @@
-# **WEEK 4 — Baseline Monitoring & FIM Validation**
+<img width="1928" height="1083" alt="image" src="https://github.com/user-attachments/assets/d87e78d6-effd-4c8a-a1aa-f1d6305437bc" /># **WEEK 4 — Baseline Monitoring & FIM Validation**
 
 ## Short Summary
 
@@ -45,7 +45,9 @@ Lifecycle validation performed through:
 
 Query used:
 
-`syscheck.event: added OR syscheck.event: modified OR syscheck.event: deleted`
+`syscheck.event: added` 
+`syscheck.event: modified`
+`syscheck.event: deleted`
 
 Wildcard matching was required for partial path filtering:
 
@@ -63,6 +65,8 @@ This validated correct indexing behavior for keyword fields.
 ![](screenshots/Pasted_image_20260301145750.png)
 ### File Creation Event
 ![](screenshots/Pasted_image_20260301150128.png)
+### File Modification Event
+![](screenshots/Pasted_image_2020260301152957.png)
 ### File Deletion Event
 ![](screenshots/Pasted_image_20260301150146.png)
 ### Wildcard Path Query Demonstration
