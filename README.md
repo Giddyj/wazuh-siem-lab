@@ -24,3 +24,6 @@ All-in-one Wazuh deployment (Manager, Indexer, Dashboard).
 ### Week 3 — Agent Onboarding & Log Collection  
 Endpoint registration, log ingestion verification, and alert visualization.  
 🔗 [View Week 3 Documentation](Week-3/README.md)
+
+### WEEK 4 — Baseline Monitoring & FIM Validation
+🔗 [View Week 4 Documentation](Week-4/README.md)
