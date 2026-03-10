@@ -90,27 +90,27 @@ Triggered via `nslookup`. Confirmed present in Event Viewer (Sysmon Operational 
 
 ### Sysmon Installation (PowerShell output)
 
-![](Pasted_image_20260310175708.png)
+![](screenshots/Pasted_image_20260310175708.png)
 
 ### Event Viewer — Sysmon Operational Channel
 
-![](Pasted_image_20260310175511.png)
+![](screenshots/Pasted_image_20260310175511.png)
 
 ### Wazuh Dashboard — Sysmon Hits (66 events)
 
-![](Pasted_image_20260310175444.png)
+![](screenshots/Pasted_image_20260310175444.png)
 
 ### Event ID 1 — Process Create (Wazuh)
 
-![](Pasted_image_20260310174107.png)
+![](screenshots/Pasted_image_20260310174107.png)
 
 ### Event ID 13 — Registry Value Set (rule.id: 750, Wazuh)
 
-![](Pasted_image_20260310174508.png)
+![](screenshots/Pasted_image_20260310174508.png)
 
 ### Event ID 22 — DNS Query (Event Viewer confirmation)
 
-![](Pasted_image_20260310175028.png)
+![](screenshots/Pasted_image_20260310175028.png)
 
 ---
 
