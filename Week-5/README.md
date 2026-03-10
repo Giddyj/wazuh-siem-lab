@@ -82,7 +82,18 @@ Note: Raw field `data.win.system.eventID: 13` returned no results. Event surface
 
 ### Event ID 22 — DNS Query
 
-Triggered via `nslookup`. Confirmed present in Event Viewer (Sysmon Operational log) but did not surface in Wazuh dashboard. Sysmon is capturing DNS queries correctly — gap is at the Wazuh parsing/rule level. To be investigated in a later week.
+Triggered via nslookup. Event confirmed in Event Viewer but did not surface in Wazuh using data.win.system.eventID: 22 — root cause was that Wazuh's default Sysmon ruleset had no rule for Event ID 22, so events were decoded but not alerted on.  
+Custom rule written in /var/ossec/etc/rules/local_rules.xml:
+```xml
+<rule id="100022" level="3">
+  <field name="win.system.channel">Microsoft-Windows-Sysmon/Operational</field>
+  <field name="win.system.eventID">^22$</field>
+  <description>Sysmon - Event 22: DNS Query</description>
+</rule>  
+```
+Verified with wazuh-logtest, confirmed firing in Wazuh dashboard:
+rule.id: 100022
+4 hits confirmed.
 
 ---
 
@@ -108,9 +119,9 @@ Triggered via `nslookup`. Confirmed present in Event Viewer (Sysmon Operational 
 
 ![](screenshots/Pasted_image_20260310174508.png)
 
-### Event ID 22 — DNS Query (Event Viewer confirmation)
+### Event ID 22 — DNS Query 
 
-![](screenshots/Pasted_image_20260310175028.png)
+![](screenshots/Pasted_image_20260310183937.png)
 
 ---
 
