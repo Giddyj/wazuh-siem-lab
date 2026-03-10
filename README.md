@@ -29,3 +29,6 @@ Endpoint registration, log ingestion verification, and alert visualization.
 Baseline behavior analysis, Windows security event investigation, and File Integrity Monitoring (FIM) testing.  
 🔗 [View Week 4 Documentation](Week-4/README.md)
 
+### Week 5 — Sysmon & Advanced Windows Logging  
+Enterprise-grade Windows telemetry with Sysmon, SwiftOnSecurity config, and PowerShell Script Block Logging feeding the SIEM.  
+🔗 [View Week 5 Documentation](Week-5/README.md)
